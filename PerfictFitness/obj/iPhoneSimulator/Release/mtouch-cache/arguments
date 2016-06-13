@@ -1,0 +1,40 @@
+# Version: 9.4.1.25 (cycle6-xi: 962a050)
+# [first argument, ignore] # /Users/cooperbrown/Dropbox/PerfictFitness/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/9.4.1.25/bin/mtouch \
+	--cache \
+	/Users/cooperbrown/Dropbox/PerfictFitness/obj/iPhoneSimulator/Release/mtouch-cache \
+	--sim \
+	/Users/cooperbrown/Dropbox/PerfictFitness/bin/iPhoneSimulator/Release/PerfictFitness.app \
+	--executable \
+	PerfictFitness \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	9.2 \
+	--targetver \
+	9.2 \
+	--new-refcount \
+	--abi=i386 \
+	--symbollist \
+	/Users/cooperbrown/Dropbox/PerfictFitness/obj/iPhoneSimulator/Release/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/MonoTouch.Dialog-1.dll \
+	-r \
+	/Users/cooperbrown/Dropbox/PerfictFitness/Components/fmcalendar-1.5.3/lib/ios-unified/Factorymind.Components-Unified.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Users/cooperbrown/Dropbox/PerfictFitness/Components/fmcalendar-1.5.3/lib/ios-unified/Factorymind.Components-Unified.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/Users/cooperbrown/Dropbox/PerfictFitness/bin/iPhoneSimulator/Release//PerfictFitness.exe \

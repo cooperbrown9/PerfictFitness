@@ -1,0 +1,32 @@
+﻿<Properties StartupItem="PerfictFitness.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.2" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Crawler/MapViewController.cs">
+    <Files>
+      <File FileName="../Crawler/CreateEventViewController.cs" Line="179" Column="5" />
+      <File FileName="../Crawler/Util.cs" Line="20" Column="3" />
+      <File FileName="../Crawler/Point.cs" Line="17" Column="3" />
+      <File FileName="../Crawler/Main.cs" Line="12" Column="1" />
+      <File FileName="../Crawler/AddEventModel.cs" Line="7" Column="3" />
+      <File FileName="../Crawler/Home/HomeViewController.cs" Line="125" Column="74" />
+      <File FileName="../Crawler/MapViewController.cs" Line="58" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Crawler" expanded="True">
+            <Node name="Crawler" expanded="True">
+              <Node name="Home" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="MapViewController.cs" selected="True" />
+            </Node>
+          </Node>
+          <Node />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

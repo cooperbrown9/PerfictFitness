@@ -1,0 +1,46 @@
+# Version: 9.6.2.4 (cycle6-xi: d8bedd0)
+# [first argument, ignore] # /Users/cooperbrown/Dropbox/PerfictFitness/mtouch.exe
+/Library/Frameworks/Xamarin.iOS.framework/Versions/9.6.2.4/bin/mtouch \
+	--cache \
+	/Users/cooperbrown/Dropbox/PerfictFitness/obj/iPhoneSimulator/Debug/mtouch-cache \
+	--sim \
+	/Users/cooperbrown/Dropbox/PerfictFitness/bin/iPhoneSimulator/Debug/PerfictFitness.app \
+	--executable \
+	PerfictFitness \
+	--fastdev \
+	--debug \
+	--nolink \
+	--sdkroot \
+	/Applications/Xcode.app/Contents/Developer \
+	--sdk \
+	9.2 \
+	--targetver \
+	9.2 \
+	--new-refcount \
+	--abi=i386 \
+	--symbollist \
+	/Users/cooperbrown/Dropbox/PerfictFitness/obj/iPhoneSimulator/Debug/mtouch-symbols.list \
+	--dsym=no \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Xml.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/Xamarin.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/MonoTouch.Dialog-1.dll \
+	-r \
+	/Users/cooperbrown/Dropbox/PerfictFitness/packages/DACircularProgress.2.3.1.0/lib/Xamarin.iOS/DACircularProgress.dll \
+	-r \
+	/Users/cooperbrown/Dropbox/PerfictFitness/Components/SharpSerializer-1.1.1/lib/ios-unified/SharpSerializer.iOS.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/System.Core.dll \
+	-r \
+	/Library/Frameworks/Xamarin.iOS.framework/Versions/Current/lib/mono/Xamarin.iOS/mscorlib.dll \
+	-r \
+	/Users/cooperbrown/Dropbox/PerfictFitness/packages/DACircularProgress.2.3.1.0/lib/Xamarin.iOS/DACircularProgress.dll \
+	-r \
+	/Users/cooperbrown/Dropbox/PerfictFitness/Components/SharpSerializer-1.1.1/lib/ios-unified/SharpSerializer.iOS.dll \
+	--target-framework \
+	"Xamarin.iOS,v1.0" \
+	/Users/cooperbrown/Dropbox/PerfictFitness/bin/iPhoneSimulator/Debug//PerfictFitness.exe \
